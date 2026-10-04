@@ -1,0 +1,21 @@
+{
+  "name": "uranai-shorts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "make": "tsx scripts/make.ts",
+    "analyze": "tsx scripts/analyze-style.ts",
+    "qa": "tsx scripts/qa.ts",
+    "tts": "tsx scripts/tts.ts",
+    "studio": "tsx scripts/studio.ts",
+    "record": "tsx scripts/record.ts",
+    "report": "tsx scripts/report.ts",
+    "schema": "tsx scripts/gen-schema.ts",
+    "typecheck": "tsc -p scripts && cd remotion && tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}

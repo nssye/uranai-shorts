@@ -1,0 +1,41 @@
+{
+  "$schema": "./schema.json",
+  "schemaVersion": 1,
+  "id": "mystic",
+  "name": "ミスティック(夜空×金)",
+  "palette": {
+    "background": ["#0b1033", "#2a1650", "#4b2468"],
+    "text": "#fdf6e3",
+    "textSub": "#d9cdf2",
+    "accent": "#e8c26a",
+    "accent2": "#9d7be0",
+    "shadow": "#05061a"
+  },
+  "background": { "type": "linear", "angle": 170, "particles": "stars", "particleDensity": 0.6, "grain": 0.15, "vignette": 0.55 },
+  "typography": {
+    "textMood": "mincho",
+    "fontFamily": "Shippori Mincho",
+    "fontCandidates": [],
+    "headingWeight": 700,
+    "bodyWeight": 600,
+    "headingSize": 96,
+    "bodySize": 68,
+    "lineHeight": 1.55,
+    "letterSpacing": 0.06,
+    "stroke": { "width": 0, "color": "#05061a" },
+    "shadow": { "blur": 24, "color": "#05061a", "opacity": 0.8 }
+  },
+  "layout": {
+    "textAnchor": "center",
+    "textAreaY": [0.52, 0.8],
+    "align": "center",
+    "marginX": 0.08,
+    "maxCharsPerLine": 13,
+    "panel": { "enabled": false, "color": "#05061a", "opacity": 0.35, "radius": 32 },
+    "showCredit": true
+  },
+  "animation": { "textIn": "blur", "stagger": 0.18, "emphasis": "glow", "transition": "fade", "transitionSec": 0.5, "cameraMotion": "kenBurns" },
+  "tempo": { "pace": "slow", "avgCutSec": 4.5, "minSceneSec": 2.6, "paddingSec": 0.7 },
+  "text": { "density": "medium", "maxLinesPerScene": 4 },
+  "voice": { "speaker": 14, "speedScale": 1.0, "pitchScale": 0, "intonationScale": 1.0, "volumeScale": 1.0 }
+}

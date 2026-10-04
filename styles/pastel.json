@@ -1,0 +1,41 @@
+{
+  "$schema": "./schema.json",
+  "schemaVersion": 1,
+  "id": "pastel",
+  "name": "パステル(ゆめかわ)",
+  "palette": {
+    "background": ["#ffd6e7", "#e3d5ff", "#c9e8ff"],
+    "text": "#5a3d6e",
+    "textSub": "#8a6a9e",
+    "accent": "#ff8fb8",
+    "accent2": "#8fc9ff",
+    "shadow": "#ffffff"
+  },
+  "background": { "type": "linear", "angle": 160, "particles": "bokeh", "particleDensity": 0.5, "grain": 0.05, "vignette": 0.1 },
+  "typography": {
+    "textMood": "maru",
+    "fontFamily": "Zen Maru Gothic",
+    "fontCandidates": [],
+    "headingWeight": 700,
+    "bodyWeight": 700,
+    "headingSize": 92,
+    "bodySize": 66,
+    "lineHeight": 1.5,
+    "letterSpacing": 0.04,
+    "stroke": { "width": 10, "color": "#ffffff" },
+    "shadow": { "blur": 0, "color": "#ffffff", "opacity": 0 }
+  },
+  "layout": {
+    "textAnchor": "center",
+    "textAreaY": [0.52, 0.8],
+    "align": "center",
+    "marginX": 0.08,
+    "maxCharsPerLine": 12,
+    "panel": { "enabled": true, "color": "#ffffff", "opacity": 0.55, "radius": 48 },
+    "showCredit": true
+  },
+  "animation": { "textIn": "pop", "stagger": 0.12, "emphasis": "pulse", "transition": "slide", "transitionSec": 0.4, "cameraMotion": "none" },
+  "tempo": { "pace": "medium", "avgCutSec": 3.5, "minSceneSec": 2.2, "paddingSec": 0.5 },
+  "text": { "density": "medium", "maxLinesPerScene": 4 },
+  "voice": { "speaker": 8, "speedScale": 1.05, "pitchScale": 0, "intonationScale": 1.1, "volumeScale": 1.0 }
+}

@@ -1,0 +1,12 @@
+﻿.env
+.env.*
+!.env.example
+node_modules/
+/out/
+samples/**/*.mp4
+samples/**/*.mov
+samples/**/frames/
+.cache/
+/content/
+remotion/public/jobs/
+/reports/

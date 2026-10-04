@@ -1,0 +1,41 @@
+{
+  "$schema": "./schema.json",
+  "schemaVersion": 1,
+  "id": "pop",
+  "name": "ポップ(ビビッド)",
+  "palette": {
+    "background": ["#ff3d7f", "#7b2ff7"],
+    "text": "#ffffff",
+    "textSub": "#fff3a8",
+    "accent": "#ffe14d",
+    "accent2": "#29e7cd",
+    "shadow": "#1a0033"
+  },
+  "background": { "type": "radial", "angle": 0, "particles": "stars", "particleDensity": 0.3, "grain": 0.08, "vignette": 0.3 },
+  "typography": {
+    "textMood": "pop",
+    "fontFamily": "Dela Gothic One",
+    "fontCandidates": [],
+    "headingWeight": 400,
+    "bodyWeight": 400,
+    "headingSize": 104,
+    "bodySize": 72,
+    "lineHeight": 1.4,
+    "letterSpacing": 0.02,
+    "stroke": { "width": 14, "color": "#1a0033" },
+    "shadow": { "blur": 0, "color": "#1a0033", "opacity": 0.9 }
+  },
+  "layout": {
+    "textAnchor": "center",
+    "textAreaY": [0.5, 0.78],
+    "align": "center",
+    "marginX": 0.06,
+    "maxCharsPerLine": 11,
+    "panel": { "enabled": false, "color": "#1a0033", "opacity": 0.4, "radius": 24 },
+    "showCredit": true
+  },
+  "animation": { "textIn": "slideUp", "stagger": 0.08, "emphasis": "pulse", "transition": "wipe", "transitionSec": 0.25, "cameraMotion": "pan" },
+  "tempo": { "pace": "fast", "avgCutSec": 2.5, "minSceneSec": 1.8, "paddingSec": 0.3 },
+  "text": { "density": "low", "maxLinesPerScene": 3 },
+  "voice": { "speaker": 3, "speedScale": 1.15, "pitchScale": 0, "intonationScale": 1.2, "volumeScale": 1.0 }
+}
